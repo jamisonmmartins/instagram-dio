@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+#left {
+    
+}
+
+
+#right {
+    padding: 1rem 1rem 2rem;
+}
+
+.login {
+    min-width: 350px;
+    max-width: 500px;
+    background-color: rgb(245, 242, 242);
+    border: 1px solid lightgray;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1.5rem;
+}
+
+.login h1 {
+    margin: 0.5rem auto;
+}
+
+.login .foto-perfil {
+    width: 100px;
+    margin: 0.5rem auto;
+    border-radius: 50%;
+}
+
+.login a {
+    display: block;
+}
+
+.login .a-inline {
+    display: inline;
+    color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.login a.continue {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 0.3rem;
+    width:max-content;
+    margin: 0 auto;   
+}
+
+.login .remover-conta {
+    color:dodgerblue;
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+}
+
+div p.conta {
+    color: gray;
+}
+
+.apps {
+    
+}
+
+
