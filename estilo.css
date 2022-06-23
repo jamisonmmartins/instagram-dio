@@ -15,13 +15,25 @@ body {
 }
 
 @media only screen and (max-width: 768px){
+    body {
+        background-color: rgb(245, 242, 242);
+    }
+
     #left {
         display: none; 
+    }
+    
+    #right .login {
+        border: none;
     }
 }
 
 #right {
     padding: 1rem 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    
 }
 
 .login {
