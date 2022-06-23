@@ -10,16 +10,22 @@ body {
 }
 
 #left {
+    padding: 1rem 1rem ;
     
 }
 
+@media only screen and (max-width: 768px){
+    #left {
+        display: none; 
+    }
+}
 
 #right {
-    padding: 1rem 1rem 2rem;
+    padding: 1rem 1rem;
 }
 
 .login {
-    min-width: 350px;
+    min-width: 200px;
     max-width: 500px;
     background-color: rgb(245, 242, 242);
     border: 1px solid lightgray;
@@ -45,6 +51,7 @@ body {
 .login .a-inline {
     display: inline;
     color: dodgerblue;
+    padding: 0;
 }
 
 a {
@@ -71,7 +78,15 @@ div p.conta {
 }
 
 .apps {
+    text-align: center;
     
 }
 
+.apps p {
+    font-size: large;
+    padding: 0.5rem;
+}
 
+.apps > img {
+    max-width: 170px;
+}
